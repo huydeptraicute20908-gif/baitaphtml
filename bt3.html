@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Colors</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 24px;
+        line-height: 1.5;
+      }
+      .browser-demo {
+        border: 1px solid #999;
+        padding: 20px;
+        max-width: 640px;
+        margin-bottom: 28px;
+        background: #fff;
+      }
+      .phrase {
+        font-size: 30px;
+        margin: 0;
+      }
+      /* Phối 3 dạng màu theo bài học: HEX, RGB, Tên màu tiếng Anh */
+      .blue-plum {
+        color: #1e56a0;
+        font-weight: bold;
+      }
+      .red-tomato {
+        color: rgb(214, 40, 40);
+        font-weight: bold;
+      }
+      .green-cucumber {
+        color: ForestGreen;
+        font-weight: bold;
+      }
+
+      h3 {
+        margin-top: 28px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 640px;
+        margin-top: 10px;
+      }
+      th,
+      td {
+        border: 1px solid #888;
+        padding: 8px 12px;
+        text-align: left;
+      }
+      th {
+        background: #222;
+        color: #fff;
+      }
+      .swatch {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        vertical-align: middle;
+        margin-right: 8px;
+        border: 1px solid #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="browser-demo">
+      <p class="phrase">
+        Once the <span class="blue-plum">blue plum</span> met the
+        <span class="red-tomato">red tomato</span><br />
+        playing with the <span class="green-cucumber">green cucumber</span>.
+      </p>
+    </div>
+
+    <h3>Bảng minh họa mã màu HEX &amp; RGB</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Màu minh họa</th>
+          <th>Tên màu (W3C)</th>
+          <th>Mã thập lục phân (HEX)</th>
+          <th>Giá trị RGB</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="swatch" style="background: #000000"></span>Đen</td>
+          <td>Black</td>
+          <td>#000000</td>
+          <td>rgb(0, 0, 0)</td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background: #ff0000"></span>Đỏ</td>
+          <td>Red</td>
+          <td>#FF0000</td>
+          <td>rgb(255, 0, 0)</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="swatch" style="background: #00ff00"></span>Xanh lá tươi
+            (Lime)
+          </td>
+          <td>Lime</td>
+          <td>#00FF00</td>
+          <td>rgb(0, 255, 0)</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="swatch" style="background: #0000ff"></span>Xanh dương
+          </td>
+          <td>Blue</td>
+          <td>#0000FF</td>
+          <td>rgb(0, 0, 255)</td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background: #ffff00"></span>Vàng</td>
+          <td>Yellow</td>
+          <td>#FFFF00</td>
+          <td>rgb(255, 255, 0)</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="swatch" style="background: #00ffff"></span>Xanh lơ
+            (Aqua)
+          </td>
+          <td>Aqua</td>
+          <td>#00FFFF</td>
+          <td>rgb(0, 255, 255)</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="swatch" style="background: #ff00ff"></span>Hồng cánh
+            sen (Fuchsia)
+          </td>
+          <td>Fuchsia</td>
+          <td>#FF00FF</td>
+          <td>rgb(255, 0, 255)</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="swatch" style="background: #c0c0c0"></span>Bạc (Silver)
+          </td>
+          <td>Silver</td>
+          <td>#C0C0C0</td>
+          <td>rgb(192, 192, 192)</td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background: #ffffff"></span>Trắng</td>
+          <td>White</td>
+          <td>#FFFFFF</td>
+          <td>rgb(255, 255, 255)</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>1.6 - Website cá nhân tổng hợp</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #eef2f7;
+        color: #1f2937;
+        line-height: 1.6;
+      }
+      header {
+        background: linear-gradient(135deg, #0f172a, #1d4ed8);
+        color: #fff;
+        padding: 24px 20px;
+      }
+      header h1 {
+        margin: 0 0 6px 0;
+        font-size: 24px;
+      }
+      header p {
+        margin: 0;
+        opacity: 0.9;
+      }
+      nav {
+        background: #1e293b;
+        padding: 12px 20px;
+        position: sticky;
+        top: 0;
+      }
+      nav a {
+        color: #f8fafc;
+        text-decoration: none;
+        margin-right: 18px;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #38bdf8;
+      }
+      main {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 0 16px;
+      }
+      section {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 18px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      }
+      section h2 {
+        margin-top: 0;
+        color: #1e3a8a;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 8px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      .map-box iframe {
+        width: 100%;
+        height: 260px;
+        border: 0;
+        border-radius: 6px;
+        margin-top: 10px;
+      }
+      footer {
+        text-align: center;
+        padding: 16px;
+        color: #4b5563;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Website Cá Nhân</h1>
+      <p>
+        Giới thiệu bản thân, kế hoạch học tập, sở thích và thông tin liên hệ
+      </p>
+    </header>
+
+    <nav>
+      <a href="#trang-chu">Trang chủ</a>
+      <a href="#ke-hoach">Kế hoạch học tập</a>
+      <a href="#so-thich">Sở thích</a>
+      <a href="#lien-he">Liên hệ</a>
+    </nav>
+
+    <main>
+      <section id="trang-chu">
+        <h2>Trang chủ — Giới thiệu bản thân</h2>
+        <p><strong>Họ và tên:</strong> Lê Trúc Huy</p>
+        <p><strong>Ngày sinh:</strong> 20/09/2008 (18 tuổi)</p>
+        <p><strong>Địa chỉ:</strong> TP. Hồ Chí Minh</p>
+        <p><strong>Email:</strong> huy.example@email.com</p>
+        <p>
+          <strong>Giới thiệu:</strong> Sinh viên ngành Công nghệ thông tin, đang
+          rèn luyện kỹ năng lập trình và thiết kế web.
+        </p>
+      </section>
+
+      <section id="ke-hoach">
+        <h2>Kế hoạch học tập</h2>
+        <ul>
+          <li>
+            Nắm vững cấu trúc HTML5, định dạng CSS3 và bố cục giao diện đáp ứng.
+          </li>
+          <li>
+            Hoàn thành đầy đủ bài thực hành Thiết kế web và đẩy code lên GitHub
+            đúng hạn.
+          </li>
+          <li>
+            Luyện tập giải thuật và lập trình cơ bản hằng ngày để nâng cao tư
+            duy.
+          </li>
+        </ul>
+      </section>
+
+      <section id="so-thich">
+        <h2>Sở thích &amp; Trang web ưa thích</h2>
+        <p>
+          <strong>Sở thích:</strong> Tìm hiểu công nghệ mới, lập trình, nghe
+          nhạc và chơi game giải trí.
+        </p>
+        <p><strong>Trang web ưa thích:</strong></p>
+        <ul>
+          <li>
+            <a href="https://github.com" target="_blank">GitHub</a> — Lưu trữ mã
+            nguồn và triển khai trang web.
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org" target="_blank"
+              >MDN Web Docs</a
+            >
+            — Tra cứu tài liệu HTML/CSS/JS.
+          </li>
+        </ul>
+      </section>
+
+      <section id="lien-he">
+        <h2>Liên hệ</h2>
+        <p><strong>Họ tên người liên hệ:</strong> Lê Trúc Huy</p>
+        <p><strong>Email:</strong> huy.example@email.com</p>
+        <p>
+          <strong>Nội dung liên hệ:</strong> Trao đổi bài tập, dự án học tập
+          hoặc góp ý giao diện website.
+        </p>
+        <div class="map-box">
+          <strong>Bản đồ vị trí:</strong>
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=106.60%2C10.72%2C106.76%2C10.85&amp;layer=mapnik"
+            loading="lazy"
+            title="Bản đồ TP. Hồ Chí Minh"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>Bản quyền &copy; 2026 — Thiết kế Web cơ bản</footer>
+  </body>
+</html>
